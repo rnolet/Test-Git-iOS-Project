@@ -21,6 +21,7 @@
 		6B45CA2518FE39200049DC1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B45CA0718FE39200049DC1A /* UIKit.framework */; };
 		6B45CA2D18FE39200049DC1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B45CA2B18FE39200049DC1A /* InfoPlist.strings */; };
 		6B45CA2F18FE39200049DC1A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B45CA2E18FE39200049DC1A /* Git_TestTests.m */; };
+		6B45CA3A18FE3DE90049DC1A /* RNTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B45CA3918FE3DE90049DC1A /* RNTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6B45CA2A18FE39200049DC1A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		6B45CA2C18FE39200049DC1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B45CA2E18FE39200049DC1A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		6B45CA3818FE3DE90049DC1A /* RNTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNTest.h; sourceTree = "<group>"; };
+		6B45CA3918FE3DE90049DC1A /* RNTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6B45CA1518FE39200049DC1A /* Main.storyboard */,
 				6B45CA1818FE39200049DC1A /* RNViewController.h */,
 				6B45CA1918FE39200049DC1A /* RNViewController.m */,
+				6B45CA3818FE3DE90049DC1A /* RNTest.h */,
+				6B45CA3918FE3DE90049DC1A /* RNTest.m */,
 				6B45CA1B18FE39200049DC1A /* Images.xcassets */,
 				6B45CA0A18FE39200049DC1A /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				6B45CA1418FE39200049DC1A /* RNAppDelegate.m in Sources */,
 				6B45CA1018FE39200049DC1A /* main.m in Sources */,
 				6B45CA1A18FE39200049DC1A /* RNViewController.m in Sources */,
+				6B45CA3A18FE3DE90049DC1A /* RNTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
